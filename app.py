@@ -10,7 +10,7 @@ df = pd.read_csv("employee_data.csv.csv")
 st.subheader("Employee Dataset")
 st.dataframe(df)
 
-# Feature Engineering
+# Feature Employee's
 
 df["PromotionGapRatio"] = (
     df["YearsSinceLastPromotion"] /
